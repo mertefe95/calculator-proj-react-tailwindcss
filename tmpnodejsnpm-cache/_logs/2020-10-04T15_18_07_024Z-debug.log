@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@testing-library/react@^9.3.2',
+1 verbose cli   '@testing-library/jest-dom@^4.2.4',
+1 verbose cli   '@testing-library/user-event@^7.1.2'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.12.0
+4 verbose npm-session a3933c6924e31ed4
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact 522ms
+8 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fjest-dom 560ms
+9 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fuser-event 642ms
+10 http fetch GET 200 https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-4.2.4.tgz 142ms
+11 silly pacote range manifest for @testing-library/jest-dom@^4.2.4 fetched in 710ms
+12 http fetch GET 200 https://registry.npmjs.org/@testing-library/react/-/react-9.5.0.tgz 1147ms
+13 silly pacote range manifest for @testing-library/react@^9.3.2 fetched in 1687ms
+14 http fetch GET 200 https://registry.npmjs.org/@testing-library/user-event/-/user-event-7.2.1.tgz 2766ms
+15 silly pacote range manifest for @testing-library/user-event@^7.1.2 fetched in 3419ms
+16 timing stage:loadCurrentTree Completed in 5611ms
+17 silly install loadIdealTree
+18 silly install cloneCurrentTreeToIdealTree
+19 timing stage:loadIdealTree:cloneCurrentTree Completed in 22ms
+20 silly install loadShrinkwrap
+21 timing stage:loadIdealTree:loadShrinkwrap Completed in 1239ms
+22 silly install loadAllDepsIntoIdealTree
+23 silly resolveWithNewModule @testing-library/jest-dom@4.2.4 checking installable status
+24 silly resolveWithNewModule @testing-library/react@9.5.0 checking installable status
+25 silly resolveWithNewModule @testing-library/user-event@7.2.1 checking installable status
+26 http fetch GET 200 https://registry.npmjs.org/css.escape 98ms
+27 http fetch GET 200 https://registry.npmjs.org/redent 106ms
+28 http fetch GET 200 https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz 99ms
+29 http fetch GET 200 https://registry.npmjs.org/redent/-/redent-3.0.0.tgz 92ms
+30 silly pacote range manifest for css.escape@^1.5.1 fetched in 203ms
+31 silly resolveWithNewModule css.escape@1.5.1 checking installable status
+32 silly pacote range manifest for redent@^3.0.0 fetched in 204ms
+33 silly resolveWithNewModule redent@3.0.0 checking installable status
+34 http fetch GET 200 https://registry.npmjs.org/strip-indent 84ms
+35 http fetch GET 200 https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz 98ms
+36 silly pacote range manifest for strip-indent@^3.0.0 fetched in 190ms
+37 silly resolveWithNewModule strip-indent@3.0.0 checking installable status
+38 http fetch GET 200 https://registry.npmjs.org/min-indent 111ms
+39 http fetch GET 200 https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 96ms
+40 silly pacote range manifest for min-indent@^1.0.0 fetched in 212ms
+41 silly resolveWithNewModule min-indent@1.0.1 checking installable status
+42 http fetch GET 200 https://registry.npmjs.org/@types%2ftesting-library__react 135ms
+43 http fetch GET 200 https://registry.npmjs.org/@types/testing-library__react/-/testing-library__react-9.1.3.tgz 174ms
+44 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 311ms
+45 silly pacote range manifest for @types/testing-library__react@^9.1.2 fetched in 317ms
+46 silly resolveWithNewModule @types/testing-library__react@9.1.3 checking installable status
+47 http fetch GET 200 https://registry.npmjs.org/@testing-library/dom/-/dom-6.16.0.tgz 564ms
+48 silly pacote range manifest for @testing-library/dom@^6.15.0 fetched in 880ms
+49 silly resolveWithNewModule @testing-library/dom@6.16.0 checking installable status
+50 http fetch GET 200 https://registry.npmjs.org/@types%2ftesting-library__dom 101ms
+51 http fetch GET 200 https://registry.npmjs.org/@sheerun%2fmutationobserver-shim 103ms
+52 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 145ms
+53 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.3.0.tgz 88ms
+54 silly pacote range manifest for dom-accessibility-api@^0.3.0 fetched in 242ms
+55 silly resolveWithNewModule dom-accessibility-api@0.3.0 checking installable status
+56 http fetch GET 200 https://registry.npmjs.org/@types/testing-library__dom/-/testing-library__dom-6.14.0.tgz 142ms
+57 silly pacote range manifest for @types/testing-library__dom@^6.12.1 fetched in 247ms
+58 silly resolveWithNewModule @types/testing-library__dom@6.14.0 checking installable status
+59 http fetch GET 200 https://registry.npmjs.org/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz 150ms
+60 silly pacote range manifest for @sheerun/mutationobserver-shim@^0.3.2 fetched in 259ms
+61 silly resolveWithNewModule @sheerun/mutationobserver-shim@0.3.3 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/pretty-format 350ms (from cache)
+63 http fetch GET 200 https://registry.npmjs.org/wait-for-expect 370ms
+64 http fetch GET 304 https://registry.npmjs.org/aria-query 376ms (from cache)
+65 http fetch GET 200 https://registry.npmjs.org/wait-for-expect/-/wait-for-expect-3.0.2.tgz 110ms
+66 silly pacote range manifest for wait-for-expect@^3.0.2 fetched in 497ms
+67 silly resolveWithNewModule wait-for-expect@3.0.2 checking installable status
+68 http fetch GET 200 https://registry.npmjs.org/aria-query/-/aria-query-4.2.2.tgz 124ms
+69 http fetch GET 200 https://registry.npmjs.org/pretty-format/-/pretty-format-25.5.0.tgz 147ms
+70 silly pacote range manifest for aria-query@^4.0.2 fetched in 503ms
+71 silly resolveWithNewModule aria-query@4.2.2 checking installable status
+72 silly pacote range manifest for pretty-format@^25.1.0 fetched in 510ms
+73 silly resolveWithNewModule pretty-format@25.5.0 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/ansi-styles 82ms (from cache)
+75 silly pacote range manifest for ansi-styles@^4.0.0 fetched in 86ms
+76 silly resolveWithNewModule ansi-styles@4.2.1 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/@jest%2ftypes 111ms (from cache)
+78 http fetch GET 200 https://registry.npmjs.org/@jest/types/-/types-25.5.0.tgz 149ms
+79 silly pacote range manifest for @jest/types@^25.5.0 fetched in 264ms
+80 silly resolveWithNewModule @jest/types@25.5.0 checking installable status
+81 http fetch GET 304 https://registry.npmjs.org/@types%2fyargs 99ms (from cache)
+82 http fetch GET 304 https://registry.npmjs.org/chalk 110ms (from cache)
+83 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz 82ms
+84 silly pacote range manifest for chalk@^3.0.0 fetched in 199ms
+85 silly resolveWithNewModule chalk@3.0.0 checking installable status
+86 http fetch GET 200 https://registry.npmjs.org/@types/yargs/-/yargs-15.0.7.tgz 102ms
+87 silly pacote range manifest for @types/yargs@^15.0.0 fetched in 205ms
+88 silly resolveWithNewModule @types/yargs@15.0.7 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/supports-color 159ms (from cache)
+90 silly pacote range manifest for supports-color@^7.1.0 fetched in 160ms
+91 silly resolveWithNewModule supports-color@7.2.0 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/color-convert 87ms (from cache)
+93 silly pacote range manifest for color-convert@^2.0.1 fetched in 89ms
+94 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+95 http fetch GET 304 https://registry.npmjs.org/color-name 85ms (from cache)
+96 silly pacote range manifest for color-name@~1.1.4 fetched in 86ms
+97 silly resolveWithNewModule color-name@1.1.4 checking installable status
+98 http fetch GET 304 https://registry.npmjs.org/has-flag 76ms (from cache)
+99 silly pacote range manifest for has-flag@^4.0.0 fetched in 77ms
+100 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+101 silly pacote range manifest for pretty-format@^25.1.0 fetched in 7ms
+102 silly resolveWithNewModule pretty-format@25.5.0 checking installable status
+103 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 112ms
+104 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-16.9.8.tgz 110ms
+105 silly pacote range manifest for @types/react-dom@* fetched in 226ms
+106 silly resolveWithNewModule @types/react-dom@16.9.8 checking installable status
+107 http fetch GET 200 https://registry.npmjs.org/@types%2freact 253ms
+108 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-16.9.50.tgz 101ms
+109 silly pacote range manifest for @types/react@* fetched in 360ms
+110 silly resolveWithNewModule @types/react@16.9.50 checking installable status
+111 http fetch GET 200 https://registry.npmjs.org/csstype 113ms
+112 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 122ms
+113 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz 114ms
+114 silly pacote range manifest for @types/prop-types@* fetched in 242ms
+115 silly resolveWithNewModule @types/prop-types@15.7.3 checking installable status
+116 timing npm Completed in 11604ms
+117 error cb() never called!
+118 error This is an error with npm itself. Please report this error at:
+119 error <https://npm.community>
